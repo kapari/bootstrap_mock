@@ -1,0 +1,58 @@
+/*!
+ * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+ $path_to_bootstrap: "../bower_components/bootstrap-sass/assets/stylesheets/";
+
+// Core variables and mixins
+@import $path_to_bootstrap + "bootstrap/variables";
+@import $path_to_bootstrap + "bootstrap/mixins";
+
+// Reset and dependencies
+@import $path_to_bootstrap + "bootstrap/normalize";
+@import $path_to_bootstrap + "bootstrap/print";
+@import $path_to_bootstrap + "bootstrap/glyphicons";
+
+// Core CSS
+@import $path_to_bootstrap + "bootstrap/scaffolding";
+@import $path_to_bootstrap + "bootstrap/type";
+@import $path_to_bootstrap + "bootstrap/code";
+@import $path_to_bootstrap + "bootstrap/grid";
+@import $path_to_bootstrap + "bootstrap/tables";
+@import $path_to_bootstrap + "bootstrap/forms";
+@import $path_to_bootstrap + "bootstrap/buttons";
+
+// Components
+@import $path_to_bootstrap + "bootstrap/component-animations";
+@import $path_to_bootstrap + "bootstrap/dropdowns";
+@import $path_to_bootstrap + "bootstrap/button-groups";
+@import $path_to_bootstrap + "bootstrap/input-groups";
+@import $path_to_bootstrap + "bootstrap/navs";
+@import $path_to_bootstrap + "bootstrap/navbar";
+@import $path_to_bootstrap + "bootstrap/breadcrumbs";
+@import $path_to_bootstrap + "bootstrap/pagination";
+@import $path_to_bootstrap + "bootstrap/pager";
+@import $path_to_bootstrap + "bootstrap/labels";
+@import $path_to_bootstrap + "bootstrap/badges";
+@import $path_to_bootstrap + "bootstrap/jumbotron";
+@import $path_to_bootstrap + "bootstrap/thumbnails";
+@import $path_to_bootstrap + "bootstrap/alerts";
+@import $path_to_bootstrap + "bootstrap/progress-bars";
+@import $path_to_bootstrap + "bootstrap/media";
+@import $path_to_bootstrap + "bootstrap/list-group";
+@import $path_to_bootstrap + "bootstrap/panels";
+@import $path_to_bootstrap + "bootstrap/responsive-embed";
+@import $path_to_bootstrap + "bootstrap/wells";
+@import $path_to_bootstrap + "bootstrap/close";
+
+// Components w/ JavaScript
+@import $path_to_bootstrap + "bootstrap/modals";
+@import $path_to_bootstrap + "bootstrap/tooltip";
+@import $path_to_bootstrap + "bootstrap/popovers";
+@import $path_to_bootstrap + "bootstrap/carousel";
+
+// Utility classes
+@import $path_to_bootstrap + "bootstrap/utilities";
+@import "bootstrap/responsive-utilities";
