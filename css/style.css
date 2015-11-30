@@ -7337,5 +7337,8 @@ button.close {
     display: none !important;
   }
 }
+.banner {
+  background: url("../img/banner.png") no-repeat top center fixed pink;
+}
 
 /*# sourceMappingURL=style.css.map */
