@@ -1,9 +1,13 @@
 @import 'bootstrap-custom';
 
 .banner {
-    background: url("../img/banner.png") no-repeat top center fixed #ccc;
+    background: url("../img/banner.png") no-repeat center center #ccc;
 }
 
 .row1 {
     background-color: $gray-light;
+}
+
+.row3 {
+    background-color: $brand-primary;
 }

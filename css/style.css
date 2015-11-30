@@ -7338,11 +7338,15 @@ button.close {
   }
 }
 .banner {
-  background: url("../img/banner.png") no-repeat top center fixed #ccc;
+  background: url("../img/banner.png") no-repeat center center #ccc;
 }
 
 .row1 {
   background-color: #e7e7e7;
+}
+
+.row3 {
+  background-color: #e84c3d;
 }
 
 /*# sourceMappingURL=style.css.map */
