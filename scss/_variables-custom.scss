@@ -372,7 +372,7 @@ $container-lg:                 $container-large-desktop !default;
 //##
 
 // Basics of a navbar
-$navbar-height:                    56px;
+$navbar-height:                    80px;
 $navbar-margin-bottom:             $line-height-computed !default;
 $navbar-border-radius:             0px;
 $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
@@ -410,7 +410,7 @@ $navbar-inverse-bg:                         $brand-secondary;
 $navbar-inverse-border:                     darken($navbar-inverse-bg, 10%) !default;
 
 // Inverted navbar links
-$navbar-inverse-link-color:                 lighten($gray-light, 15%) !default;
+$navbar-inverse-link-color:                 $gray-lighter;
 $navbar-inverse-link-hover-color:           #fff !default;
 $navbar-inverse-link-hover-bg:              lighten($brand-secondary, 15%);
 $navbar-inverse-link-active-color:          $navbar-inverse-link-hover-color !default;
