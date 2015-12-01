@@ -13,9 +13,28 @@
 }
 
 .row1 {
-    background-color: $gray-light;
+    background-color: $gray-lighter;
 }
 
 .row3 {
     background-color: $brand-primary;
+}
+
+footer {
+    background-color: $brand-secondary;
+    padding: 5.5em 0 5em;
+    color: $gray-light;
+    a {
+        color: $gray-lighter;
+        padding: 0 1em;
+    }
+    a:first-child {
+        padding-left: 0;
+    }
+    a:focus, a:hover {
+        color: white;
+    }
+    span {
+        color: $brand-primary;
+    }
 }
