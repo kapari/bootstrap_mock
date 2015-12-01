@@ -1553,19 +1553,19 @@ h6 .small, .h6 small,
 }
 
 h1, .h1 {
-  font-size: 36px;
+  font-size: 34px;
 }
 
 h2, .h2 {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 h3, .h3 {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 h4, .h4 {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 h5, .h5 {
@@ -5490,7 +5490,7 @@ a.badge:hover, a.badge:focus {
   }
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 63px;
+    font-size: 34px;
   }
 }
 
@@ -7337,6 +7337,18 @@ button.close {
     display: none !important;
   }
 }
+h1, h2 {
+  text-transform: uppercase;
+}
+
+h1 {
+  line-height: 1.4em;
+}
+
+h3 {
+  color: #e84c3d;
+}
+
 .navbar {
   margin-bottom: 0px;
   border: 0px;
@@ -7345,8 +7357,11 @@ button.close {
   text-transform: uppercase;
 }
 
-.banner {
+.jumbotron {
   background: url("../img/banner.png") no-repeat center center #ccc;
+  color: #e7e7e7;
+  padding-top: 18em;
+  margin-bottom: 0;
 }
 
 .row1 {

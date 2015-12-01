@@ -1,5 +1,18 @@
 @import 'bootstrap-custom';
 
+// Heading styles
+h1, h2 {
+    text-transform: uppercase;
+}
+
+h1 {
+    line-height: 1.4em;
+}
+
+h3 {
+    color: $brand-primary;
+}
+
 .navbar {
     margin-bottom: 0px;
     border: 0px;
@@ -8,8 +21,11 @@
     }
 }
 
-.banner {
+.jumbotron {
     background: url("../img/banner.png") no-repeat center center #ccc;
+    color: $gray-lighter;
+    padding-top: 18em;
+    margin-bottom: 0;
 }
 
 .row1 {
