@@ -7349,6 +7349,15 @@ h3 {
   color: #e84c3d;
 }
 
+.circle-icon {
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  text-align: center;
+  padding: 0.75em;
+  color: white;
+}
+
 .navbar {
   margin-bottom: 0px;
   border: 0px;
@@ -7367,9 +7376,16 @@ h3 {
 .row1 {
   background-color: #e7e7e7;
 }
+.row1 .fa {
+  background-color: #e84c3d;
+}
 
 .row3 {
   background-color: #e84c3d;
+  color: white;
+}
+.row3 .fa {
+  background-color: #222222;
 }
 
 footer {
